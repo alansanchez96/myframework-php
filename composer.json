@@ -1,0 +1,21 @@
+{
+    "name": "alan/framework_base",
+    "description": "Framework Base con PHP 8 esquema MVC GULP SASS MySQL",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Alan\\Composer\\": "src/",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alan Sanchez"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
