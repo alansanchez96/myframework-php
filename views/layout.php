@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <?php echo $contenido; ?>
+    <?php echo $content; ?>
             
 </body>
 </html>

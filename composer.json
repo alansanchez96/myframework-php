@@ -1,18 +1,21 @@
 {
-    "name": "alan/framework_base",
-    "description": "Framework Base con PHP 8 esquema MVC GULP SASS MySQL",
+    "name": "alansan/pattern-mvc",
+    "description": "Framework Base with PHP 8 pattern MVC on MySQL. Include GULP SASS.",
     "type": "project",
     "autoload": {
         "psr-4": {
             "Alan\\Composer\\": "src/",
             "MVC\\" : "./",
-            "Controllers\\" : "./controllers",
-            "Model\\" : "./models"
+            "Controllers\\" : "./Controllers",
+            "Model\\" : "./Models"
         }
     },
     "authors": [
         {
-            "name": "Alan Sanchez"
+            "name": "Alansan",
+            "email": "alaansannchezz@gmail.com",
+            "homepage": "https://portfolio-alansan.netlify.app/",
+            "role": "FullStack Developer"
         }
     ],
     "require": {
